@@ -15,10 +15,10 @@ const body = document.body;
 const token = localStorage.getItem("token");
 const imageElement = document.querySelector(".slider_img img");
 const images = [
-  "../assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_and_centrallyframed_1.jpg",
-  "../assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_image_of_a_Razer_Ye_2.jpg",
-  "../assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_image_of_a_Razer_ga_3.jpg",
-  "../assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_realistic_illustration_of_a_1.jpg"
+  "assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_and_centrallyframed_1.jpg",
+  "assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_image_of_a_Razer_Ye_2.jpg",
+  "assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_image_of_a_Razer_ga_3.jpg",
+  "assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_realistic_illustration_of_a_1.jpg"
 ];
 
 let currentIndex = 0;
