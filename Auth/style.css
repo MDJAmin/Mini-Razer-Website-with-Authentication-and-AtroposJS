@@ -80,3 +80,33 @@ form button:focus {
 #massage {
   min-height: 20px;
 }
+
+@media (max-width: 570px) {
+  .login-container {
+    max-width: 300px;
+  }
+
+  form {
+    width: 200px;
+    gap: 5px;
+  }
+
+  form button {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .login-container {
+    max-width: 250px;
+  }
+
+  form {
+    width: 200px;
+    gap: 5px;
+  }
+
+  form button {
+    border-radius: 10px;
+  }
+}
