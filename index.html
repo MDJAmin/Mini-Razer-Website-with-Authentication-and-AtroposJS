@@ -1,135 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/Logo/Razer.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/atropos@1.0.3/atropos.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/Logo/Razer.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/atropos@1.0.3/atropos.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
     <title>Razer Shop</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- nav bar -->
-        <nav class="nav_bar">
-            <ul>
-                <img class="razer_logo" src="assets/images/Logo/Nav Logo.png" alt="Logo image">
-            </ul>
-            <ul class="nav_icons">
-                <span class="close_button">&times;</span>
-                <img class="pocket_icon" src="assets/images/Logo/inbox.svg" alt="Inbox">
-                <img class="card_icon" src="assets/images/Logo/shopping-cart.svg" alt="Card">
-                <a href="Auth/index.html" id="authIcon">
-                    <img class="user_icon" src="assets/images/Logo/user.svg" alt="User">
-                </a>
-                <img id="logoutIcon" class="logout_icon" src="assets/images/Logo/logout.svg" alt="Logout"
-                    style="display: none; cursor: pointer;">
-            </ul>
-            <img id="menuIcon" class="menu_icon" src="assets/images/Logo/Menu.svg" alt="menu">
-        </nav>
-        <!-- hero section -->
-        <section class="hero_section">
-            <div class="hero_back_ground">
-                <div class="hero_contents">
-                    <p class="hero_title hero_content">Personalized Items</p>
-                    <h3 class="hero_header hero_content">HEAD PHONE</h3>
-                    <button class="hero_button hero_content">Shop wireless headphone</button>
-                </div>
-                <img class="hero_headphone"
-                    src="assets/images/Default_black_and_green_razor_headphone_without_the_wire_0_dc3706ba-d99d-40a3-94d7-b1dbb001ad3c_0 1.png"
-                    alt="">
-            </div>
-        </section>
+      <!-- nav bar -->
+      <nav class="nav_bar">
+        <ul>
+          <img
+            class="razer_logo"
+            src="assets/images/Logo/Nav Logo.png"
+            alt="Logo image"
+          />
+        </ul>
+        <ul class="nav_icons">
+          <span class="close_button">&times;</span>
+          <img
+            class="pocket_icon"
+            src="assets/images/Logo/inbox.svg"
+            alt="Inbox"
+          />
+          <img
+            class="card_icon"
+            src="assets/images/Logo/shopping-cart.svg"
+            alt="Card"
+          />
+          <a
+            href="Auth/index.html"
+            id="authIcon"
+          >
+            <img
+              class="user_icon"
+              src="assets/images/Logo/user.svg"
+              alt="User"
+            />
+          </a>
+          <img
+            id="logoutIcon"
+            class="logout_icon"
+            src="assets/images/Logo/logout.svg"
+            alt="Logout"
+            style="display: none; cursor: pointer"
+          />
+        </ul>
+        <img
+          id="menuIcon"
+          class="menu_icon"
+          src="assets/images/Logo/Menu.svg"
+          alt="menu"
+        />
+      </nav>
+      <!-- hero section -->
+      <section class="hero_section">
+        <div class="hero_back_ground">
+          <div class="hero_contents">
+            <p class="hero_title hero_content">Personalized Items</p>
+            <h3 class="hero_header hero_content">HEAD PHONE</h3>
+            <button class="hero_button hero_content">Shop wireless headphone</button>
+          </div>
+          <img
+            class="hero_headphone"
+            src="assets/images/Default_black_and_green_razor_headphone_without_the_wire_0_dc3706ba-d99d-40a3-94d7-b1dbb001ad3c_0 1.png"
+            alt=""
+          />
+        </div>
+      </section>
     </header>
     <section class="overlay"></section>
     <main>
-        <!-- products section -->
-        <section class="products_section">
-            <h2 class="product_header product_item">Find Your Own Category</h2>
-            <div class="product_items">
-                <div class="product_items_1">
-                    <div class="product_item">
-                        <img src="./assets/images/Category/Leonardo_Phoenix_A_cluttered_dimly_lit_gaming_setup_with_a_var_0.jpg"
-                            alt="Boy’s Collection">
-                        <p>Boy’s Collection</p>
-                    </div>
-                    <div class="product_item">
-                        <img src="./assets/images/Category/Leonardo_Phoenix_A_dimly_lit_atmospheric_scene_featuring_a_gro_1.jpg"
-                            alt="Girls' Collection">
-                        <p>Girls' Collection</p>
-                    </div>
-                </div>
-                <div class="product_items_2">
-                    <div class="product_item">
-                        <img src="./assets/images/Category/Leonardo_Phoenix_A_minimalist_sleek_product_category_image_fea_1.jpg"
-                            alt="Explore Our Merch">
-                        <p>Explore Our Merch</p>
-                    </div>
-                    <div class="product_item">
-                        <img src="./assets/images/Category/Leonardo_Phoenix_A_vibrant_and_colorful_image_featuring_a_grou_0.jpg"
-                            alt="Gear & Setups">
-                        <p>Gear & Setups</p>
-                    </div>
-                </div>
+      <!-- products section -->
+      <section class="products_section">
+        <h2 class="product_header product_item">Find Your Own Category</h2>
+        <div class="product_items">
+          <div class="product_items_1">
+            <div class="product_item">
+              <img
+                src="./assets/images/Category/Leonardo_Phoenix_A_cluttered_dimly_lit_gaming_setup_with_a_var_0.jpg"
+                alt="Boy’s Collection"
+              />
+              <p>Boy’s Collection</p>
             </div>
-        </section>
-        <!-- slider section  -->
-        <section class="slider_section">
-            <div class="slider_content">
-                <h2 class="slider_header"><span>Customer</span> Favorites</h2>
-                <p class="slider_detail">At Razer, we believe in creating products that go beyond expectations offering
-                    not just functionality, but an experience that makes everyday life better. From premium
-                    craftsmanship to stylish innovation, our products are designed with you in mind. We use only the
-                    finest materials to ensure durability, longevity, and a luxurious feel.</p>
-                <button class="slider_button">Add to Your Card</button>
+            <div class="product_item">
+              <img
+                src="./assets/images/Category/Leonardo_Phoenix_A_dimly_lit_atmospheric_scene_featuring_a_gro_1.jpg"
+                alt="Girls' Collection"
+              />
+              <p>Girls' Collection</p>
             </div>
-            <div class="slider_img">
-                <img src="assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_and_centrallyframed_1.jpg"
-                    alt="">
+          </div>
+          <div class="product_items_2">
+            <div class="product_item">
+              <img
+                src="./assets/images/Category/Leonardo_Phoenix_A_minimalist_sleek_product_category_image_fea_1.jpg"
+                alt="Explore Our Merch"
+              />
+              <p>Explore Our Merch</p>
             </div>
-        </section>
-        <!-- atropos section -->
-        <section class="atropos_section">
-            <div class="atropos my-atropos">
-                <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                        <div class="atropos-inner">
-                            <img src="assets/images/A_Model/Leonardo_Phoenix_A_cluttered_desk_or_shelf_filled_with_a_wide_3.jpg"
-                                alt="atropos image" data-atropos-offset="5">
-                        </div>
-                    </div>
-                </div>
+            <div class="product_item">
+              <img
+                src="./assets/images/Category/Leonardo_Phoenix_A_vibrant_and_colorful_image_featuring_a_grou_0.jpg"
+                alt="Gear & Setups"
+              />
+              <p>Gear & Setups</p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <!-- slider section  -->
+      <section class="slider_section">
+        <div class="slider_content">
+          <h2 class="slider_header"><span>Customer</span> Favorites</h2>
+          <p class="slider_detail">
+            At Razer, we believe in creating products that go beyond expectations offering not
+            just functionality, but an experience that makes everyday life better. From premium
+            craftsmanship to stylish innovation, our products are designed with you in mind. We
+            use only the finest materials to ensure durability, longevity, and a luxurious
+            feel.
+          </p>
+          <button class="slider_button">Add to Your Card</button>
+        </div>
+        <div class="slider_img">
+          <img
+            src="assets/images/Mouse/Leonardo_Phoenix_A_highly_detailed_closeup_and_centrallyframed_1.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- atropos section -->
+      <section class="atropos_section">
+        <div class="atropos my-atropos">
+          <div class="atropos-scale">
+            <div class="atropos-rotate">
+              <div class="atropos-inner">
+                <img
+                  src="assets/images/A_Model/Leonardo_Phoenix_A_cluttered_desk_or_shelf_filled_with_a_wide_3.jpg"
+                  alt="atropos image"
+                  data-atropos-offset="5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>Razer | All Rights Reserved</p>
-        <ul>
-            <a href="https://www.youtube.com/c/DARKLORDCDL"><i class='bx bxl-youtube'></i></a>
-            <a href="https://www.instagram.com/darklordyt_"><i class='bx bxl-instagram'></i></a>
-            <a href="https://x.com/Amin_4994"><i class='bx bxl-twitter'></i></a>
-        </ul>
+      <p>Razer | All Rights Reserved</p>
+      <ul>
+        <a href="https://www.youtube.com/@MDJ_Amin"><i class="bx bxl-youtube"></i></a>
+        <a href="https://github.com/MDJAmin"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/mdjamin_"><i class="bx bxl-instagram"></i></a>
+      </ul>
     </footer>
-    <script>
-    </script>
+    <script></script>
     <script type="module">
-        import Atropos from "https://cdn.jsdelivr.net/npm/atropos/+esm";
+      import Atropos from "https://cdn.jsdelivr.net/npm/atropos/+esm";
 
-        document.addEventListener("DOMContentLoaded", function () {
-            const myAtropos = Atropos({
-                el: ".my-atropos",
-                activeOffset: 50,
-                shadow: true,
-                rotateXMax: 25,
-                rotateYMax: 15
-            });
+      document.addEventListener("DOMContentLoaded", function () {
+        const myAtropos = Atropos({
+          el: ".my-atropos",
+          activeOffset: 50,
+          shadow: true,
+          rotateXMax: 25,
+          rotateYMax: 15,
         });
+      });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/atropos@1.0.3/atropos.min.js"></script>
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
